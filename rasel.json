@@ -1,1 +1,7 @@
-alert(1)
+# controller
+@attrs = {:email => 'some@email.com</script><script>alert(document.domain)//'}
+
+<!-- view -->
+<script>
+  var attributes = <%= @attrs.to_json %>
+</script>
